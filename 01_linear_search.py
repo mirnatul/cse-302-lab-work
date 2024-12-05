@@ -5,12 +5,12 @@ def linear_search(arr, key):
     return -1
 
 
-numbers = list(map(int, input().split()))
-key = int(input().strip())
+numbers = list(map(int, input("Enter an array (space separated values): ").split()))
+key = int(input("Enter the number you want to found: ").strip())
 
 result = linear_search(numbers, key)
 
 if result != -1:
-    print(f"Element found at index {result}")
+    print(f"Number found at index {result}")
 else:
-    print("Element not found")
+    print("Number not found")
