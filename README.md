@@ -9,7 +9,7 @@
 05. 0/1 Knapsack
 06. Prim's Algorithm
 07. Kruskal Algorithm
-08. N-Queens Problem
+08. N-Queens Problem Algorithm
 09. BFS
 10. DFS
 11. Topological Sort
